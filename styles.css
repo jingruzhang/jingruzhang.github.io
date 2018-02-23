@@ -59,6 +59,7 @@ html, body {
     background-color: #bad5dd;
     display: grid;
     grid-column: 1 / -1;
+    grid-row: second-line / -1;
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
   }
