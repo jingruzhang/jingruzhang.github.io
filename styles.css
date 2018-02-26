@@ -37,17 +37,18 @@ html, body {
 
 
   main {
-      grid-column: 4 / -4;
+    grid-column: 4 / -4;
   }
 
   .now {
-    grid-column: 4 / span 4;
+    grid-column: 4 / span 3;
     height: 100%
   }
 
   .links {
     grid-column: 8 /span 3;
     height: 100%;
+
   }
 
   .footer {
@@ -57,4 +58,5 @@ html, body {
     grid-row: second-line / -1;
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
+    margin-bottom: 0;
   }
