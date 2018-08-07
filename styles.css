@@ -24,6 +24,7 @@ html, body {
 
 .brand {
   grid-column: 4 / -4;
+  height: 1.5em;
 }
 
 p {
@@ -33,6 +34,7 @@ p {
 .intro {
   font-size: 30px;
   padding: 2em 0;
+  height: 80%;
 }
 
 
@@ -61,7 +63,10 @@ main {
   grid-column: 1 / -1;
   grid-row: second-line / -1;
   grid-template-columns: repeat(12, 1fr);
-  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 @media (max-width:768px) {
