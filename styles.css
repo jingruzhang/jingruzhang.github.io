@@ -5,7 +5,7 @@ html, body {
   margin: 0;
   padding: 0;
   color: #333333;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace, "Microsoft Yahei","微软雅黑";
 }
 
 *  {
@@ -24,6 +24,10 @@ html, body {
 
 .brand {
   grid-column: 4 / -4;
+}
+
+.brand p {
+  font-size: 24px;
 }
 
 p {
