@@ -23,6 +23,7 @@ html, body {
 }
 
 .brand {
+  padding-top: 2em;
   grid-column: 4 / -4;
 }
 
@@ -37,6 +38,11 @@ p {
 .intro {
   font-size: 24px;
   padding: 2em 0;
+  margin-bottom: 4em;
+}
+
+.intro li {
+  padding: 0.5em;
 }
 
 .intro a {
@@ -69,15 +75,23 @@ main {
 }
 
 .footer {
-  background-color: lightpink;
-  display: grid;
-  grid-column: 1 / -1;
-  grid-row: second-line / -1;
-  grid-template-columns: repeat(12, 1fr);
-  margin-bottom: 0px;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-@media (max-width:768px) {
+.footer p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.footer i {
+  color: lightpink;
+}
+
+@media (max-width:760px) {
   .brand {
     grid-column: 2/-2;
   }
